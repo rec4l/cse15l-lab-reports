@@ -1,4 +1,4 @@
-`cd` command, with 3 examples:
+# `cd` command, with 3 examples:
 
 **First example, with no arguments:** 
 ```
@@ -27,7 +27,7 @@ bash: cd: vi.txt: Not a directory
 *Explanation of output:* `cd` changes the directory, but `vi.txt` is not a directory so it cannot do so. <br/>
 *Error?:* The error was given because the text file given as an argument is NOT a directory. <br/>
 
-`ls` command, with 3 examples:
+# `ls` command, with 3 examples:
 
 **First example, with no arguments:**
 ```
@@ -56,7 +56,7 @@ vi.txt
 *Explanation of output:* It listed the singular file, because the file is not a directory and only contains itself. <br/>
 *Error?:* None <br/>
 
-`cat` command, with 3 examples:
+# `cat` command, with 3 examples:
 
 **First example, with no arguments:**
 ```
