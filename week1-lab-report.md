@@ -65,7 +65,7 @@ vi.txt
 ```
 *The working directory was:* /home/lecture1/messages <br/>
 *Explanation of output:* It will return nothing initially, and then for any input thereafter, it will return the same output. <br/>
-*Error?:* All input in terminal is duplicated, and this is because cat was not given an argument. <br/>
+*Error?:* None <br/>
 
 **Second example, with a path to a directory:**
 ```
