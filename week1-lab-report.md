@@ -6,12 +6,12 @@ PID: A17418793
 
 **First example, with no arguments:** 
 ```
-[user@sahara ~]$ cd
-[user@sahara ~]$
+[user@sahara ~/lecture1/messages]$ cd
+[user@sahara ~]$ 
 ```
-*The working directory was:* /home <br/>
-*Explanation of output:* `cd` stands for change directory, but no arguments are given so it does not change to anything. <br/>
-*Error?:* Not necessarily an error but it will not have an effect. <br/>
+*The working directory was:* /home/lecture1/messages <br/>
+*Explanation of output:* `cd` stands for change directory, and with no arguments, it will send the user to the home directory. <br/>
+*Error?:* None <br/>
 
 **Second example, with a path to a directory:**
 ```
