@@ -20,8 +20,8 @@ user initializes as `jpolitz3` <br>
 Then, the correct formatting of the chat message is added to chatLog, and displayed. <br>
 
 How do the values change/not change from the specific request? <br>
-parameters, message, user, is dependent on the request given by the url. <br>
-chatLog is appended to, based on the contents of the request and displayed to the user. <br>
+`parameters`, `message`, `user`, is dependent on the request given by the url. <br>
+`chatLog` is appended to, based on the contents of the request and displayed to the user. <br>
 
 Screenshot 2: <br>
 ![Image](https://i.imgur.com/hjcxRWm.png)
@@ -37,5 +37,5 @@ user initializes as `jpolitz3` <br>
 Then, the correct formatting of the chat message is added to chatLog, and displayed. <br>
 
 How do the values change/not change from the specific request? <br>
-parameters, message, user, is dependent on the request given by the url. <br>
-chatLog is appended to, based on the contents of the request and displayed to the user. <br>
+`parameters`, `message`, `user`, is dependent on the request given by the url. <br>
+`chatLog` is appended to, based on the contents of the request and displayed to the user. <br>
