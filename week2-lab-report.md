@@ -15,4 +15,4 @@ What are the values of the relevant fields of those classes?
 How do the values change/not change from the specific request? 
 
 Screenshot 2:
-![Image]https://i.imgur.com/g6tlez0.png
+![Image](https://i.imgur.com/g6tlez0.png)
