@@ -39,3 +39,13 @@ Then, the correct formatting of the chat message is added to chatLog, and displa
 How do the values change/not change from the specific request? <br>
 `parameters`, `message`, `user`, is dependent on the request given by the url. <br>
 `chatLog` is appended to, based on the contents of the request and displayed to the user. <br>
+
+Path to the private key on home computer:
+![Image](https://i.imgur.com/gHXBD6s.png)
+Absolute path: `C:\Users\jmn003\.ssh\id_rsa`
+
+Path to the public key on ieng6:
+![Image](https://i.imgur.com/trgOJqP.png)
+
+Screenshot of successful login without password:
+![Image](https://i.imgur.com/PEHmap1.png)
