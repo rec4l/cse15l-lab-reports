@@ -55,11 +55,11 @@ The programmer was affecting the input array instead of the initialized array an
 
 ##Chosen command: ``less``
 
-### The argument: ``-N``
-The directory: ``~/Downloads/docsearch/``
-The command: ``less -N biomed-sizes.txt``
-Output: (insert imgur link)
-Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order.
+### The argument: ``-N`` 
+The directory: ``~/Downloads/docsearch/`` \n
+The command: ``less -N biomed-sizes.txt`` \n
+Output: (insert imgur link) \n
+Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. 
 
 The command: ``less -N gb-2003-4-9-r60.txt``
 The directory: ``~/Downloads/docsearch/technical/biomed``
