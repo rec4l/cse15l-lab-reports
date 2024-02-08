@@ -61,42 +61,42 @@ The command: ``less -N biomed-sizes.txt`` <br>
 Output: (insert imgur link) <br>
 Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. 
 
-The command: ``less -N gb-2003-4-9-r60.txt``
-The directory: ``~/Downloads/docsearch/technical/biomed``
-Output: (insert imgur link)
+The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
+The command: ``less -N gb-2003-4-9-r60.txt`` <br>
+Output: (insert imgur link) <br>
 Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order.
 
 ### The argument: ``-w``
-The directory: ``~/Downloads/docsearch/technical/government/media``
-The command: ``less -w Law_Schools.txt``
-Output: (insert imgur link)
+The directory: ``~/Downloads/docsearch/technical/government/media`` <br>
+The command: ``less -w Law_Schools.txt`` <br>
+Output: (insert imgur link) <br>
 Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it.
 
-The directory: ``~/Downloads/docsearch/technical/biomed``
-The command: ``less -w gb-2003-4-9-r60.txt``
-Output: (insert imgur link)
+The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
+The command: ``less -w gb-2003-4-9-r60.txt`` <br>
+Output: (insert imgur link) <br>
 Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it.
 
 ### The argument: ``--window=n``
-The directory: ``~/Downloads/docsearch/technical/government/media``
-The command: ``less --window=1 -w Law_Schools.txt``
-Output: (insert imgur link)
+The directory: ``~/Downloads/docsearch/technical/government/media`` <br>
+The command: ``less --window=1 -w Law_Schools.txt`` <br>
+Output: (insert imgur link) <br>
 Explanation: It changes the default scroll setting to be in n lines, in this case I wanted it to scroll only 1 line when I clicked space. It is useful if your reading style varies from the default setting.
 
-The directory: ``~/Downloads/docsearch/technical/plos``
-The command: ``less --window=3 -w pmed.0020201.txt``
-Output: (insert imgur link)
+The directory: ``~/Downloads/docsearch/technical/plos`` <br>
+The command: ``less --window=3 -w pmed.0020201.txt`` <br>
+Output: (insert imgur link) <br>
 Explanation: It changes the default scroll setting to be in n lines, in this case I wanted it to scroll only 1 line when I clicked space. It is useful if your reading style varies from the default setting.
 
-### The argument: ``-f``
-The directory: ``~/Downloads/docsearch``
-The command: ``less -f lib``
+### The argument: ``-f`` <br>
+The directory: ``~/Downloads/docsearch`` <br>
+The command: ``less -f lib`` <br>
 Output: (insert imgur link)
 Explanation: It forces a file to be opened by the less command, whether or not it is allowed by default. In this case, using it on a directory output nothing, which makes sense to me.
 
-The directory: ``~/Downloads/docsearch/technical/government/About_LSC``
-The command: ``less -f conference_highlights.txt``
-Output: (insert imgur link)
+The directory: ``~/Downloads/docsearch/technical/government/About_LSC`` <br>
+The command: ``less -f conference_highlights.txt`` <br>
+Output: (insert imgur link) <br>
 Explanation: -f forces a file to be opened regardless if it can or not, but if used on a normal .txt file then it appears to just open it normally.
 
 
