@@ -1,5 +1,6 @@
-dddd
-
+# Week 5 Lab Report
+By: Jonathan Nguyen
+PID: A17418793 <br>
 # Part 1 - Bugs
 
 Bug chosen: bug in ``ArrayExamples.java`` in the ``reversed`` method
