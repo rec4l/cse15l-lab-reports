@@ -57,33 +57,42 @@ The programmer was affecting the input array instead of the initialized array an
 ##Chosen command: ``less``
 
 ### The argument: ``-N`` 
+### Example 1: <br>
 The directory: ``~/Downloads/docsearch/`` <br>
 The command: ``less -N biomed-sizes.txt`` <br>
 Output: <br> ![Image](https://i.imgur.com/RnQAxuE.png) <br>
-Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. 
+Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. <br>
+
+### Example 2: <br>
 
 The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
 The command: ``less -N gb-2003-4-9-r60.txt`` <br>
 Output: <br> ![Image](https://i.imgur.com/LbPwIM2.png) <br>
-Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order.
+Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. <br>
 
 ### The argument: ``-w``
+### Example 1: <br>
 The directory: ``~/Downloads/docsearch/technical/government/media`` <br>
 The command: ``less -w Law_Schools.txt`` <br>
 Output: <br>![Image](https://i.imgur.com/qngks2M.png) <br>
-Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it.
+Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it. <br>
+
+### Example 2: <br>
 
 The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
 The command: ``less -w gb-2003-4-9-r60.txt`` <br>
 Output:<br> ![Image](https://i.imgur.com/lOfmaDo.png) <br>
-Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it.
+Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it. <br>
 
 ### The argument: ``--window=n``
+### Example 1: <br>
 The directory: ``~/Downloads/docsearch/technical/government/media`` <br>
 The command: ``less --window=1 -w Law_Schools.txt`` <br>
 Output:<br> ![Image](https://i.imgur.com/zJx5xa9.png) <br>
 ![Image](https://i.imgur.com/pEIL6vy.png) <br>
-Explanation: It changes the default scroll setting to be in n lines, in this case I wanted it to scroll only 1 line when I clicked space. It is useful if your reading style varies from the default setting.
+Explanation: It changes the default scroll setting to be in n lines, in this case I wanted it to scroll only 1 line when I clicked space. It is useful if your reading style varies from the default setting. <br>
+
+### Example 2: <br>
 
 The directory: ``~/Downloads/docsearch/technical/plos`` <br>
 The command: ``less --window=3 -w pmed.0020201.txt`` <br>
@@ -92,11 +101,12 @@ Output: ![Image](https://i.imgur.com/ldgx1dD.png)
 Explanation: It changes the default scroll setting to be in n lines, in this case I wanted it to scroll only 1 line when I clicked space. It is useful if your reading style varies from the default setting.
 
 ### The argument: ``-f`` <br>
+### Example 1: <br>
 The directory: ``~/Downloads/docsearch`` <br>
 The command: ``less -f lib`` <br>
 Output:<br> ![Image](https://i.imgur.com/8xhc6H5.png) <br>
-Explanation: It forces a file to be opened by the less command, whether or not it is allowed by default. In this case, using it on a directory output nothing, which makes sense to me.
-
+Explanation: It forces a file to be opened by the less command, whether or not it is allowed by default. In this case, using it on a directory output nothing, which makes sense to me. <br>
+### Example 2: <br>
 The directory: ``~/Downloads/docsearch/technical/government/About_LSC`` <br>
 The command: ``less -f conference_highlights.txt`` <br>
 Output:<br> ![Image](https://i.imgur.com/ssaFYIy.png) <br>
