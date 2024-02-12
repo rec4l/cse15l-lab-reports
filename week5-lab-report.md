@@ -12,7 +12,7 @@ public void testReversed2() {
   assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input1));
 }
 ```
-The symptom: ![Image](https://i.imgur.com/kArZdAV.png)
+The symptom: <br> ![Image](https://i.imgur.com/kArZdAV.png)
 
 An input that does not cause a failure:
 ```
@@ -22,7 +22,7 @@ public void testReversed2() {
   assertArrayEquals(new int[]{0, 0, 0}, ArrayExamples.reversed(input1));
 }
 ```
-The symptom: ![Image](https://i.imgur.com/Zaj8bBM.png)
+The symptom: <br> ![Image](https://i.imgur.com/Zaj8bBM.png)
 
 The bug: 
 ```
@@ -58,29 +58,29 @@ The programmer was affecting the input array instead of the initialized array an
 ### The argument: ``-N`` 
 The directory: ``~/Downloads/docsearch/`` <br>
 The command: ``less -N biomed-sizes.txt`` <br>
-Output: ![Image](https://i.imgur.com/RnQAxuE.png) <br>
+Output: <br> ![Image](https://i.imgur.com/RnQAxuE.png) <br>
 Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. 
 
 The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
 The command: ``less -N gb-2003-4-9-r60.txt`` <br>
-Output: ![Image](https://i.imgur.com/LbPwIM2.png) <br>
+Output: <br> ![Image](https://i.imgur.com/LbPwIM2.png) <br>
 Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order.
 
 ### The argument: ``-w``
 The directory: ``~/Downloads/docsearch/technical/government/media`` <br>
 The command: ``less -w Law_Schools.txt`` <br>
-Output: ![Image](https://i.imgur.com/qngks2M.png) <br>
+Output: <br>![Image](https://i.imgur.com/qngks2M.png) <br>
 Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it.
 
 The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
 The command: ``less -w gb-2003-4-9-r60.txt`` <br>
-Output: ![Image](https://i.imgur.com/lOfmaDo.png) <br>
+Output:<br> ![Image](https://i.imgur.com/lOfmaDo.png) <br>
 Explanation: It highlights the line previously at the bottom when scrolling. It seems to mostly be an accessibility thing, and I quite like it.
 
 ### The argument: ``--window=n``
 The directory: ``~/Downloads/docsearch/technical/government/media`` <br>
 The command: ``less --window=1 -w Law_Schools.txt`` <br>
-Output: ![Image](https://i.imgur.com/zJx5xa9.png) <br>
+Output:<br> ![Image](https://i.imgur.com/zJx5xa9.png) <br>
 ![Image](https://i.imgur.com/pEIL6vy.png) <br>
 Explanation: It changes the default scroll setting to be in n lines, in this case I wanted it to scroll only 1 line when I clicked space. It is useful if your reading style varies from the default setting.
 
@@ -93,12 +93,12 @@ Explanation: It changes the default scroll setting to be in n lines, in this cas
 ### The argument: ``-f`` <br>
 The directory: ``~/Downloads/docsearch`` <br>
 The command: ``less -f lib`` <br>
-Output: ![Image](https://i.imgur.com/8xhc6H5.png)
+Output:<br> ![Image](https://i.imgur.com/8xhc6H5.png) <br>
 Explanation: It forces a file to be opened by the less command, whether or not it is allowed by default. In this case, using it on a directory output nothing, which makes sense to me.
 
 The directory: ``~/Downloads/docsearch/technical/government/About_LSC`` <br>
 The command: ``less -f conference_highlights.txt`` <br>
-Output: ![Image](https://i.imgur.com/ssaFYIy.png) <br>
+Output:<br> ![Image](https://i.imgur.com/ssaFYIy.png) <br>
 Explanation: -f forces a file to be opened regardless if it can or not, but if used on a normal .txt file then it appears to just open it normally.
 
 
