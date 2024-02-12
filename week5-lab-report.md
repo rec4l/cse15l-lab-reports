@@ -12,7 +12,7 @@ public void testReversed2() {
   assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input1));
 }
 ```
-The symptom: (place imgur link)
+The symptom: (https://i.imgur.com/kArZdAV.png)
 
 An input that does not cause a failure:
 ```
