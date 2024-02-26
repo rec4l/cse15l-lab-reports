@@ -407,7 +407,7 @@ lib (END)
 
 <br>
 Explanation: It forces a file to be opened by the less command, whether or not it is allowed by default. In this case, using it on a directory output nothing, which makes sense to me. <br>
-### Example 2: <br>
+## Example 2: <br>
 The directory: ``~/Downloads/docsearch/technical/government/About_LSC`` <br>
 The command: ``less -f conference_highlights.txt`` <br>
 Output:<br> 
