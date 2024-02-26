@@ -60,7 +60,8 @@ The programmer was affecting the input array instead of the initialized array an
 ### Example 1: <br>
 The directory: ``~/Downloads/docsearch/`` <br>
 The command: ``less -N biomed-sizes.txt`` <br>
-Output: <br> ``1      432     3380    24544 technical/biomed/1468-6708-3-1.txt 
+Output: <br> ``
+      1      432     3380    24544 technical/biomed/1468-6708-3-1.txt 
       2      533     3630    30118 technical/biomed/1468-6708-3-10.txt
       3      296     2166    17178 technical/biomed/1468-6708-3-3.txt 
       4      547     4301    31925 technical/biomed/1468-6708-3-4.txt 
