@@ -62,17 +62,6 @@ The directory: ``~/Downloads/docsearch/`` <br>
 The command: ``less -N biomed-sizes.txt`` <br>
 Output: <br> 
 ```
-      1      432     3380    24544 technical/biomed/1468-6708-3-1.txt        
-      2      533     3630    30118 technical/biomed/1468-6708-3-10.txt     
-      3      296     2166    17178 technical/biomed/1468-6708-3-3.txt 
-      4      547     4301    31925 technical/biomed/1468-6708-3-4.txt 
-      5      317     2312    18431 technical/biomed/1468-6708-3-7.txt 
-      6      411     3181    24439 technical/biomed/1471-2091-2-10.txt
-      7      615     4684    35718 technical/biomed/1471-2091-2-11.txt
-      8      515     3287    25366 technical/biomed/1471-2091-2-12.txt
-      9      564     3550    28534 technical/biomed/1471-2091-2-13.txt
-     10      339     2496    19055 technical/biomed/1471-2091-2-16.txt
-     11      826     5832    46240 technical/biomed/1471-2091-2-5.txt 
       1      432     3380    24544 technical/biomed/1468-6708-3-1.txt
       2      533     3630    30118 technical/biomed/1468-6708-3-10.txt
       3      296     2166    17178 technical/biomed/1468-6708-3-3.txt
