@@ -26,7 +26,7 @@ I used git clone with the ssh url on my forked repository.
 
 # Step 6 (show that tests initially failed)
 screenshot: <br>
-![Image](https://i.ibb.co/4VMY0B6/ss3.png)
+![Image](https://i.ibb.co/CsL9qPB/Capture2.png)
 
 keys pressed: <br>
 `<up><up><up><up><up><up><up><up><enter>`
