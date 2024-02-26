@@ -106,7 +106,46 @@ Explanation: It output a column of line numbers on the left hand side. I expect 
 
 The directory: ``~/Downloads/docsearch/technical/biomed`` <br>
 The command: ``less -N gb-2003-4-9-r60.txt`` <br>
-Output: <br> ![Image](https://i.imgur.com/LbPwIM2.png) <br>
+Output: <br> 
+```
+      1
+      2
+      3
+      4
+      5         Rationale
+      6         The post-genomic era has introduced high-throughput
+      7         methodologies that generate experimental data at rates that
+      8         exceed knowledge growth. In particular, high-density
+      9         biochips including complementary deoxyribonucleic acid
+     10         (cDNA) microarrays, oligonucleotide microarrays, and
+     11         rapidly evolving proteomics platforms represent modern
+     12         tools able to interrogate biology on a genome-wide scale
+     13         and generate tens of thousands of data points
+     14         simultaneously [ 1 ] . While researchers are beginning to
+     15         appreciate the statistical rigors required for the analysis
+     16         of genome-scale datasets, a rate-limiting step in knowledge
+     17         growth occurs at the transition from statistical
+     18         significance to biological discovery.
+     19         A number of public efforts are currently focusing on the
+     20         annotation and curation of gene-specific functional data,
+     21         including LocusLink, Protein Information Resource (PIR),
+     22         GeneCards, Proteome, Kyoto Encyclopedia of Genes and
+     23         Genomes (KEGG), Ensembl, and Swiss-Prot to name but a few [
+     24         2 3 4 5 6 7 8 ] . These resources provide exceptional depth
+     25         and coverage of the functional data available for a given
+     26         gene, but are not designed to effectively explore the
+     27         biological knowledge associated with hundreds or thousands
+     28         of genes in parallel. In order to facilitate the functional
+     29         annotation and analysis of large lists of genes we have
+     30         developed a Database for Annotation, Visualization, and
+     31         Integrated Discovery (DAVID), which provides a set of
+     32         data-mining tools that systematically combine functionally
+     33         descriptive data with intuitive graphical displays [ 9 ] .
+     34         DAVID provides exploratory visualization tools that promote
+     35         discovery through functional classification, biochemical
+     36         pathway maps, and conserved protein domain architectures,
+```
+<br>
 Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. <br>
 
 ### The argument: ``-w``
