@@ -60,7 +60,7 @@ The programmer was affecting the input array instead of the initialized array an
 ### Example 1: <br>
 The directory: ``~/Downloads/docsearch/`` <br>
 The command: ``less -N biomed-sizes.txt`` <br>
-Output: <br> ``
+Output: <br> ```
       1      432     3380    24544 technical/biomed/1468-6708-3-1.txt 
       2      533     3630    30118 technical/biomed/1468-6708-3-10.txt
       3      296     2166    17178 technical/biomed/1468-6708-3-3.txt 
@@ -107,7 +107,7 @@ Output: <br> ``
      33     1173     6982    55614 technical/biomed/1471-2105-3-14.txt
      34      776     4989    38222 technical/biomed/1471-2105-3-16.txt
      35      920     5988    48159 technical/biomed/1471-2105-3-17.txt
-     36     2236     9393    80798 technical/biomed/1471-2105-3-18.txt`` <br>
+     36     2236     9393    80798 technical/biomed/1471-2105-3-18.txt``` <br>
 Explanation: It output a column of line numbers on the left hand side. I expect this to be helpful if the file was sorted in some meaningful order. <br>
 
 ### Example 2: <br>
