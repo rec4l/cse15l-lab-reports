@@ -8,7 +8,7 @@ Post from a student:
 
 **User: jmn003** <br>
 Hello, I'm trying to figure out why the test below fails. The actual assertEquals line on line 39 appears to be correct, and line 33 appears to have the ideal expected result. I just can't figure out 
-why the filter method applied on s1 will give an ArrayList of ("a", "a").
+why the filter method applied on s1 will give an ArrayList of ("a", "a"). I additionally looked at the filter method and cannot find anything wrong, so could it be the test, filter method, or even running the test.sh file???
 
 ![Image](https://i.ibb.co/vJdqSq4/Screenshot-466.png)
 ![Image](https://i.ibb.co/BGC9yDq/Screenshot-467.png)
