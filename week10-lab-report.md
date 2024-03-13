@@ -18,7 +18,7 @@ Hey, jmn003! Thanks for the question. Yes, you are correct. The tests have the c
 Since the method returns "result", do you think it could be something to do with that variable?
 
 **Response from jmn003:** <br>
-Thank you so much for the help! I realized that the result variable was initialized outside of the method and caused some unintended issues. I added a new line and was able to fix it quite easily!
+Thank you so much for the help! I realized that the result variable was initialized outside of the method and caused some unintended issues. I added a new line to initialize it inside of the method and was able to fix it quite easily!
 
 ![Image](https://i.ibb.co/QHssC2f/Screenshot-469.png)
 
