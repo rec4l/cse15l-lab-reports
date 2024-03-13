@@ -6,7 +6,7 @@ PID: A17418793 <br>
 
 Post from a student:
 
-User: jmn003
+**User: jmn003** <br>
 Hello, I'm trying to figure out why the test below fails. The actual assertEquals line on line 39 appears to be correct, and line 33 appears to have the ideal expected result. I just can't figure out 
 why the filter method applied on s1 will give an ArrayList of ("a", "a").
 
