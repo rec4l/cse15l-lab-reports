@@ -10,8 +10,8 @@ Post from a student:
 Hello, I'm trying to figure out why the test below fails. The actual assertEquals line on line 39 appears to be correct, and line 33 appears to have the ideal expected result. I just can't figure out 
 why the filter method applied on s1 will give an ArrayList of ("a", "a").
 
-https://i.ibb.co/vJdqSq4/Screenshot-466.png
-https://i.ibb.co/BGC9yDq/Screenshot-467.png
+![Image](https://i.ibb.co/vJdqSq4/Screenshot-466.png)
+![Image](https://i.ibb.co/BGC9yDq/Screenshot-467.png)
 
 **Reply from a TA:** <br>
 Hey, jmn003! Thanks for the question. Yes, you are correct. The tests have the correct intended functionality, so you might want to consider looking at the implementation of the filter method!
@@ -20,7 +20,7 @@ Since the method returns "result", do you think it could be something to do with
 **Response from jmn003:** <br>
 Thank you so much for the help! I realized that the result variable was initialized outside of the method and caused some unintended issues. I added a new line and was able to fix it quite easily!
 
-https://i.ibb.co/QHssC2f/Screenshot-469.png
+![Image](https://i.ibb.co/QHssC2f/Screenshot-469.png)
 
 
 File structure needed:
