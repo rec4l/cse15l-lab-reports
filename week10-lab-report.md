@@ -29,8 +29,8 @@ File structure needed:
     - hamcrest-core-1.3.jar
     - junit-4.13.2.jar
   - ListExamples.java
-    
-    ``
+
+```
     
 import java.util.Arrays;
 import java.util.List;
@@ -52,7 +52,8 @@ interface StrChecker { boolean checkString(String s); }
             return result;
         }
 }
-``
+
+```
 
   - TestListExamples/java
   - test.sh
