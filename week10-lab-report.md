@@ -31,7 +31,6 @@ File structure needed:
   - ListExamples.java
 
 ```
-    
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
@@ -52,8 +51,55 @@ interface StrChecker { boolean checkString(String s); }
             return result;
         }
 }
-
 ```
 
-  - TestListExamples/java
+  - TestListExamples.java
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+
+class IsA implements StrChecker {
+    public boolean checkString(String s) {
+        return s.equalsIgnoreCase("a");
+    }
+}
+
+public class TestListExamples {
+    @Test
+    public void testFilter() {
+        List<String> s1 = Arrays.asList("a", "b", "c");
+        List<String> s2 = Arrays.asList("d", "a");
+
+        List<String> expect = Arrays.asList("a");
+
+        List<String> result1 = ListEx.filter(s1, new IsA());
+        List<String> result2 = ListEx.filter(s2, new IsA());
+
+        assertEquals(expect, result1);
+        assertEquals(expect, result2);
+
+    }
+
+    @Test
+    public void testFilter2() {
+        List<String> s1 = Arrays.asList("a", "b", "c");
+        List<String> s2 = Arrays.asList("d", "a", "a");
+
+        List<String> expect1 = Arrays.asList("a");
+        List<String> expect2 = Arrays.asList("a", "a");
+
+        List<String> result1 = ListEx.filter(s1, new IsA());
+        List<String> result2 = ListEx.filter(s2, new IsA());
+
+        assertEquals(expect1, result1);
+        assertEquals(expect2, result2);
+    }
+}
+```
   - test.sh
+```
+javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
